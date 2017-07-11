@@ -1,0 +1,10 @@
+<HTML>
+<TITLE>Test File</TITLE>
+
+
+<label>Test</label>
+<!--#config timefmt="%A" --> <!--#echo var="DATE_LOCAL" -->
+
+<!--#echo var="DATE_LOCAL"-->
+
+</HTML>

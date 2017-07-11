@@ -1,0 +1,5 @@
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+DirectoryIndex index.shtml 
+AddHandler server-parsed .html
+AddHandler server-parsed .htm
