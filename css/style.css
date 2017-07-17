@@ -184,12 +184,17 @@ input[type="email"]:focus {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 44px 0;
   font-size: 16px;
   z-index: 10;
   background-color: transparent;
   webkit-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+}
+
+#main-nav #top-header{
+  position: fixed;
+  height:20px;
+  background-color: #0061ff;
 }
 
 #main-nav #navigation {
