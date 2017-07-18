@@ -3,7 +3,7 @@
 }
 
 html, body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -186,85 +186,89 @@ input[type="email"]:focus {
   width: 100%;
   font-size: 16px;
   z-index: 10;
-  background-color: transparent;
+  background-color: #b302ff;
   webkit-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
 }
 
+#main-nav.active {
+  background-color: #b302ff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+
 #main-nav #top-header{
   position: fixed;
-  height:20px;
-  background-color: #0061ff;
+  height:25px;
+  width: 100%;
+  background-color: #7200bf;
+}
+
+#main-nav #top-header a{
+  color: #4040ff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight:800;
+}
+#main-nav #top-header a:hover{
+  color: #ffffff;
+}
+
+#main-nav #bottom-header{
+  margin-top: 25px;
 }
 
 #main-nav #navigation {
-  color: #26272d;
+  color: #ff0000;
   text-decoration: none;
   position: absolute;
-  top: 50%;
-  margin-top: -16px;
+  margin-top: 50px;
   z-index: 2;
+  font-size: 40px;
 }
 
 #main-nav #navigation:hover {
-  color: #267df4 !important;
-}
-
-#main-nav ul {
-  padding: 0;
-}
-
-#main-nav ul li {
-  display: inline-block;
-  margin-right: 40px;
-}
-
-#main-nav ul li a {
-  color: #26272d;
-  text-decoration: none;
-}
-
-#main-nav ul li a:hover {
-  color: #267df4;
-}
-
-#main-nav ul li .help {
-  color: rgba(38, 39, 45, 0.4);
-}
-
-#main-nav ul li .btn-blue {
-  color: #ffffff;
-}
-
-#main-nav ul li .btn-blue:hover {
-  color: #ffffff;
-}
-
-#main-nav ul li:last-child {
-  margin-right: 0;
-}
-
-#main-nav ul.left {
-  text-align: left;
-  margin-left: 50px;
-}
-
-#main-nav ul.left li {
-  display: inline-block;
-  padding: 9px 0;
-}
-
-#main-nav ul.left li:first-child {
-  margin-right: 30px;
-}
-
-#main-nav ul.right {
-  text-align: right;
+  color: #ffffff ;
 }
 
 #main-nav .logo {
   display: inline-block;
-  padding-top: 11px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 50px; 
+}
+
+#main-nav .button {
+  background-color: #ff0000;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+  border:3px solid #4040ff;
+  color:#4040ff;
+  font-size:24px;
+  font-weight: 700;
+  padding:1px 10px;
+  margin-top:60px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+}
+
+#main-nav .button:hover,
+#main-nav .button:focus {
+  -moz-box-shadow: 0 5px 10px -4px #4040ff;
+  -webkit-box-shadow: 0 5px 10px -4px #4040ff;
+  box-shadow: 0 10px 5px -4px #4040ff;
+
+  transform: translateY(-5px);
+  color:#ffffff;
+}
+
+#main-nav ul li {
+  display: inline-block;
+  margin-left: 10px;
 }
 
 #main-nav #slide_out_menu {
@@ -398,14 +402,6 @@ input[type="email"]:focus {
   left: 0;
 }
 
-#main-nav.active {
-  background-color: #ffffff;
-  padding: 24px 0;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
-  -ms-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
-}
 
 /*****************************************************
 *** Header ***
