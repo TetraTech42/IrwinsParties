@@ -10,7 +10,7 @@
                      *** HEADER ***
 *****************************************************
 -->
-  <section id="header-home" >
+  <section id="header-inflatables" >
     <div class="container">
       <div class="row">
         <div class="col-md-7 text-center">
@@ -71,7 +71,7 @@
 *****************************************************
 -->
 
-  <section id="balloon">
+  <section id="do-for-you">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
@@ -150,14 +150,14 @@
 *****************************************************
 -->
 
-  <section id="about">
+  <section id="about-us">
     <div class="container">
       <div class="row">
         <div class="feature wow fadeInUp">
           <div class="f-description">
-            <h2>About Us</h2>
+            <h2>About Us</h4>
             <p>
-              Irwin's Parties, LLC is an Asbury, family owned and operated party rental
+              Irwin's, LLC is an Asbury, family owned and operated party rental
               company. We have proudly established ourselves as the fastest growing, customer-oriented party rental
               business in 2001. We take extra time to pay attention to details and respond to customers’ needs
               quickly and efficiently. Need to speak to the owner? No problem. Irwin's Parties is built

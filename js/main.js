@@ -42,10 +42,10 @@ $(document).ready(function() {
 	var company_price_table = $('#price_tables').find('.company');
 
 
-	$('.switch-toggles').find('.individual').addClass('active');
+	$('.switch-toggles').find('.inflatables').addClass('active');
 	$('#price_tables').find('.individual').addClass('active');
 
-	$('.switch-toggles').find('.individual').on('click', function(){
+	$('.switch-toggles').find('.inflatables').on('click', function(){
 		$(this).addClass('active');
 		$(this).closest('.switch-toggles').removeClass('active');
 		$(this).siblings().removeClass('active');
@@ -92,6 +92,14 @@ $(document).ready(function() {
     // Magnific Popup
     $(".lightbox").magnificPopup();
 
-
+	//dropdown 
+	$('ul.nav li.dropdown').hover(
+      function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+      }, 
+      function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+      }
+    );
 
 });
