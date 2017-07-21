@@ -464,11 +464,11 @@ input[type="submit"]:focus {
   position: relative;
   overflow: hidden;
 }
-#header-mechanicals {
+#header-dunk-tanks {
   padding-top: 400px;
   padding-bottom: 350px;
   background-repeat: no-repeat;
-  background-image: url("../images/backgrounds/header-background-mechanicals.jpg");
+  background-image: url("../images/backgrounds/header-background-dunk-tanks.jpg");
   background-position: top left;
   background-size: 100% 100%;
   position: relative;
@@ -535,6 +535,235 @@ input[type="submit"]:focus {
   overflow: hidden;
 }
 
+
+/*****************************************************
+*** WHAT WE DO SECTION ***
+*****************************************************/
+
+#what-we-do {
+  padding-top: 25px;
+  padding-bottom: 500px;
+  background-color: #F9DB3F;
+  position: relative;
+  overflow: hidden;
+}
+
+#what-we-do .ferris-row{
+  height:450px;
+}
+
+#what-we-do .content{
+  text-align: center;
+}
+
+/*wheel content*/
+#what-we-do .ferris-wheel ,.wheel {
+  border: 6px solid #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#what-we-do .ferris-wheel {
+  position: absolute;
+  top: 200px;
+  margin-left:45%;
+  margin-right:40%;
+  transform: translateX(-50%) translateY(-50%) scale(1.4, 1.4);
+  border: 0;
+}
+#what-we-do .wheel-inflatables:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin-top:-5px;
+  margin-left:-5px;
+  background-image: url("../images/what-we-do/inflatables.jpg");
+  position: absolute;
+  border-radius: 50%;
+}
+#what-we-do .wheel-dunk-tanks:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin-top:-5px;
+  margin-left:-5px;
+  background-image: url("../images/what-we-do/dunk-tanks.jpg");
+  position: absolute;
+  border-radius: 50%;
+}
+#what-we-do .wheel-games:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin-top:-5px;
+  margin-left:-5px;
+  background-image: url("../images/what-we-do/games.jpg");
+  position: absolute;
+  border-radius: 50%;
+}
+#what-we-do .wheel-arts-crafts:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin-top:-5px;
+  margin-left:-5px;
+  background-image: url("../images/what-we-do/arts-crafts.jpg");
+  position: absolute;
+  border-radius: 50%;
+}
+#what-we-do .wheel-fun-foods:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin-top:-5px;
+  margin-left:-5px;
+  background-image: url("../images/what-we-do/fun-foods.jpg");
+  position: absolute;
+  border-radius: 50%;
+}
+#what-we-do .wheel-tents:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin-top:-5px;
+  margin-left:-5px;
+  background-image: url("../images/what-we-do/tents.jpg");
+  position: absolute;
+  border-radius: 50%;
+}
+
+/*wheel stand*/
+#what-we-do div.stand:before,
+#what-we-do div.stand:after {
+  content: "";
+  position: absolute;
+  border-right: 4px solid #F3AE34;
+  height: 55px;
+  transform: rotate(15deg);
+  top: 200px;
+  left: 50%;
+  margin-left: -15px;
+  z-index:1;
+}
+#what-we-do div.stand:after {
+  transform: rotate(-15deg);
+  margin-left: 23px;
+}
+
+/*wheel base*/
+#what-we-do .stand span {
+  position: absolute;
+  height: 10px;
+  background: #683C10;
+  width: 100px;
+  left:55px;
+  bottom: -60px;
+  z-index: 2;
+}
+
+/*wheel border*/
+#what-we-do .buckets {
+  position: absolute;
+  border: 6px solid #fff;
+  width: 205px;
+  height: 205px;
+  margin-top:-200px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+#what-we-do .buckets div {
+  position: absolute;
+  animation: bucket-rotate 40s infinite linear;
+  top: 55%;
+  left:45%
+}
+
+/*bucket holder*/
+#what-we-do .buckets div:before {
+  content: "";
+  height: 13px;
+  left: 9px;
+  border-right: 1px solid #888;
+  position: absolute;
+  top: -12px;
+  transform: rotate(30deg);
+}
+#what-we-do .buckets div:after {
+  content: "";
+  height: 13px;
+  border-right: 1px solid #888;
+  position: absolute;
+  right: 10px;
+  transform: rotate(-30deg);
+  top: -12px;
+}
+/*bucket*/
+#what-we-do .buckets span {
+  display: inline-block;
+  border-top: 15px solid #A84172;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  height: 0;
+  width: 27px;
+  position: relative;
+}
+#what-we-do .buckets span:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  height: 3px;
+  width: 25px;
+  left: -2px;
+  background: #652382;
+}
+#what-we-do .buckets span:after {
+  content: "";
+  height: 5px;
+  left: -2px;
+  background: linear-gradient(to right,  #97cde6 0%,#97cde6 35%,#fff 35%,#fff 66%,#97cde6 66%,#97cde6 100%);
+  width: 25px;
+  position: absolute;
+  top: -12px;
+}
+
+@keyframes bucket-rotate {
+  0% { 
+    transform: rotate(0) translateX(100px) rotate(0); 
+  }
+  100% { 
+    transform: rotate(360deg) translateX(100px) rotate(-360deg); 
+  }
+}
+
+#what-we-do .buckets div:nth-child(2) {
+  animation-delay: -4.8s;
+}
+
+#what-we-do .buckets div:nth-child(3) {
+  animation-delay: -9.9s;
+}
+
+#what-we-do .buckets div:nth-child(4) {
+  animation-delay: -15s;
+}
+
+#what-we-do .buckets div:nth-child(5) {
+  animation-delay: -20s;
+}
+
+#what-we-do .buckets div:nth-child(6) {
+  animation-delay: -25s;
+}
+
+#what-we-do .buckets div:nth-child(7) {
+  animation-delay: -30s;
+}
+
+#what-we-do .buckets div:nth-child(8) {
+  animation-delay: -35s;
+}
+
 /*****************************************************
 *** BALLOON SECTION ***
 *****************************************************/
@@ -593,54 +822,89 @@ input[type="submit"]:focus {
   background-color: #0DD4F3;
 }
 #products .toggle-container .switch-toggles {
-  position: relative;
-  width: 70%;
+  width: 90%;
   height: 50px;
-  border: 1px solid rgba(38, 39, 45, 0.2);
+  border: 1px solid #4040ff;
   border-radius: 30px;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
+  margin: 0 auto;
 }
 
-#products .toggle-container .switch-toggles .inflatables,
-#products .toggle-container .switch-toggles .company {
+#products .toggle-container .switch-toggles .category{
   position: relative;
-  width: 130px;
+  width: 16.66%;
   float: left;
   padding: 13px 10px;
   text-align: center;
   z-index: 2;
   cursor: pointer;
   font-size: 16px;
-  color: #8c8f94;
+  color: #4040ff;
   transition: color 0.7s cubic-bezier(0.545, 0, 0.05, 1);
 }
 
-#products .toggle-container .switch-toggles .inflatables.active,
-#products .toggle-container .switch-toggles .company.active {
-  color: #26272d;
-}
-
-#products .toggle-container .switch-toggles:after {
-  position: absolute;
-  content: "";
-  width: 122px;
-  height: 42px;
+#products .toggle-container .switch-toggles .category.active {
+  color: #ff0000;
   background: #ffffff;
-  left: 3px;
-  top: 3px;
+  transition: all 0.7s cubic-bezier(0.545, 0, 0.05, 1);
   border-radius: 30px;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
   box-shadow: 2.5px 4.33px 20px 0px rgba(61, 61, 62, 0.059);
   -moz-box-shadow: 2.5px 4.33px 20px 0px rgba(61, 61, 62, 0.059);
   -webkitbox-shadow: 2.5px 4.33px 20px 0px rgba(61, 61, 62, 0.059);
-  transition: all 0.7s cubic-bezier(0.545, 0, 0.05, 1);
 }
 
-#products .toggle-container .switch-toggles.active:after {
+#products .toggle-container .switch-toggles .active:after {
   left: 135px;
-  top: 3px;
+}
+
+/*****************************************************
+*** INFLATABLES SECTION ***
+*****************************************************/
+
+#inflatables {
+  padding-top:25px;
+  background-color: #0DD4F3;
+}
+#inflatables .toggle-container .switch-toggles {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #4040ff;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  margin: 0 auto;
+}
+
+#inflatables .toggle-container .switch-toggles .category{
+  position: relative;
+  width: 12.5%;
+  float: left;
+  padding: 13px 10px;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+  font-size: 15px;
+  color: #4040ff;
+  transition: color 0.7s cubic-bezier(0.545, 0, 0.05, 1);
+}
+
+#inflatables .toggle-container .switch-toggles .category.active {
+  color: #ff0000;
+  background: #ffffff;
+  transition: all 0.7s cubic-bezier(0.545, 0, 0.05, 1);
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  box-shadow: 2.5px 4.33px 20px 0px rgba(61, 61, 62, 0.059);
+  -moz-box-shadow: 2.5px 4.33px 20px 0px rgba(61, 61, 62, 0.059);
+  -webkitbox-shadow: 2.5px 4.33px 20px 0px rgba(61, 61, 62, 0.059);
+}
+
+#inflatables .toggle-container .switch-toggles .active:after {
+  left: 135px;
 }
 
 /*****************************************************

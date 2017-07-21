@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--#include file="head.html" -->
+
 <body>
 
   <!--#include file="header.html" -->
 
-<!--  
+  <!--  
 *****************************************************
                      *** HEADER ***
 *****************************************************
 -->
   <section id="header-products">
-    <div class="container" >
+    <div class="container">
       <div class="row">
         <div class="col-md-7 text-center">
           <div id="myCarousel" class="carousel slide wow fadeInUp" data-ride="carousel" style="height:auto;max-width:100%">
@@ -64,8 +65,8 @@
       </div>
     </div>
   </section>
-  
-<!--  
+
+  <!--  
 *****************************************************
          *** PRODUCTS ***
 *****************************************************
@@ -78,16 +79,20 @@
           <div class="f-description" style="text-align:center">
             <h1>Products</h1>
             <p>
-              Irwin's Parties only has the best products to offer. We have a variety of all different things
-              that will make your party  hit!  
+              Irwin's Parties only has the best products to offer. We have a variety of all different things that will make your party
+              hit!
             </p>
           </div>
         </div>
       </div>
       <div class="toggle-container cf">
         <div class="switch-toggles">
-          <div class="inflatables">Individual</div> <!-- active -->
-          <div class="company">Company</div>
+          <div class="category inflatables first">Inflatables</div>
+          <div class="category mechanicals">Mechanicals</div>
+          <div class="category games">Games</div>
+          <div class="category arts-crafts">Arts & Crafts</div>
+          <div class="category fun-foods">Fun Foods</div>
+          <div class="category tents">Tents</div>
         </div>
       </div>
     </div>
@@ -96,4 +101,5 @@
   <!--#include file="footer.html" -->
 
 </body>
+
 </html>

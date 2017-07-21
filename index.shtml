@@ -71,7 +71,7 @@
 *****************************************************
 -->
 
-  <section id="balloon">
+  <section id="what-we-do">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
@@ -83,27 +83,92 @@
           </p>
         </div>
       </div>
+      <div class="row ferris-row">
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-inflatables">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-dunk-tanks">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-games">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/inflatables.png" alt="Inflatables">
+        <div class="col-md-4 content">
           <h2>
             Inflatables
           </h2>
           <p>
-            We have a wonderful selection of inflatables that will make your party a hit!
+            We have a wonderful selection of Inflatables that will make your party a hit!
           </p>
         </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/mechanicals.png" alt="Mechanicals">
+        <div class="col-md-4 content">
           <h2>
-            Mechanicals
+            Dunk Tanks
           </h2>
           <p>
-            We have a wonderful selection of mechanicals that will make your party a hit!
+            We have a wonderful selection of dunk tanks that will make your party a hit!
           </p>
         </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/games.png" alt="Games">
+        <div class="col-md-4 content">
           <h2>
             Games
           </h2>
@@ -112,32 +177,97 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/fun-foods.png" alt="Fun Foods">
-          <h2>
-            Fun Foods
-          </h2>
-          <p>
-            We have a wonderful selection of fun foods that will make your party a hit!
-          </p>
+      <div class="row ferris-row">
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-arts-crafts">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
         </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/arts-and-crafts.png" alt="Arts And Crafts">
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-fun-foods">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-tents">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 content">
           <h2>
             Arts & Crafts
           </h2>
           <p>
-            We have a wonderful selection of arts and crafts that will make your party a hit!
+            We have a wonderful selection of Inflatables that will make your party a hit!
           </p>
         </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/tents.png" alt="Tents">
+        <div class="col-md-4 content">
+          <h2>
+            Fun Foods
+          </h2>
+          <p>
+            We have a wonderful selection of dunk tanks that will make your party a hit!
+          </p>
+        </div>
+        <div class="col-md-4 content">
           <h2>
             Tents
           </h2>
           <p>
-            We have a wonderful selection of tents that will make your party a hit!
+            We have a wonderful selection of games that will make your party a hit!
           </p>
         </div>
       </div>
