@@ -87,6 +87,18 @@
           </p>
         </div>
       </div>
+            <div class="toggle-container cf">
+              <div class="switch-toggles">
+                <div class="category inflatables first">Package A</div>
+                <div class="category mechanicals">Package B</div>
+                <div class="category games">Package C</div>
+                <div class="category arts-crafts">Package D</div>
+                <div class="category fun-foods">Package E</div>
+                <div class="category tents">Package F</div>
+                <div class="category tents">Package G</div>
+        </div>
+      </div>
+    </div>
       <div class="row">
         <div class="col-md-4 text-center">
           <img src="images/do-for-you/inflatables.png" alt="Inflatables">
