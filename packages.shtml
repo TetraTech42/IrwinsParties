@@ -70,8 +70,34 @@
          *** WHAT WE CAN DO FOR YOU ***
 *****************************************************
 -->
-
-  <section id="do-for-you">
+  <section id="packages">
+    <div class="container">
+      <div class="row">
+        <div class="feature wow fadeInUp">
+          <div class="f-description" style="text-align:center">
+            <h1>Inflatables</h1>
+            <p>
+            Here are the various packages we have for you at Irwin's Parties. Be sure to
+            Check these deals out for great savings for your party. Each package is tailor 
+            made for a unique party. Happy Shopping!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="toggle-container cf">
+        <div class="switch-toggles">
+          <div class="category inflatables first">Package A</div>
+          <div class="category mechanicals">Package B</div>
+          <div class="category games">Package C</div>
+          <div class="category arts-crafts">Package D</div>
+          <div class="category fun-foods">Package E</div>
+          <div class="category tents">Package F</div>
+          <div class="category tents">Package G</div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- <section id="do-for-you">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
@@ -159,7 +185,7 @@
       </div>
     </div>
   </section>
-
+-->
   <!--  
 *****************************************************
                  *** ABOUT US ***
