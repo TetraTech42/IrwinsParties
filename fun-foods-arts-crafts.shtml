@@ -10,7 +10,7 @@
                      *** HEADER ***
 *****************************************************
 -->
-  <section id="header-about" >
+  <section id="header-fun-foods-arts-crafts" >
     <div class="container">
       <div class="row">
         <div class="col-md-7 text-center">
@@ -64,63 +64,39 @@
       </div>
     </div>
   </section>
-   <!--  
+  <!--  
 *****************************************************
-                 *** OUR STORY ***
+              *** FUN FOODS ARTS CRAFTS SECTION ***
 *****************************************************
 -->
-
-  <section id="our-story">
+  <section id="fun-foods-arts-crafts">
     <div class="container">
       <div class="row">
         <div class="feature wow fadeInUp">
-          <div class="f-description">
-            <h2>Our Story</h2>
+          <div class="f-description" style="text-align:center">
+            <h1>
+              Fun Foods 
+              <br>
+              And 
+              <br>
+              Arts & Crafts
+            </h1>
             <p>
-              Irwin's Parties, LLC is an Asbury, family owned and operated party rental
-              company. We have proudly established ourselves as the fastest growing, customer-oriented party rental
-              business in 2001. We take extra time to pay attention to details and respond to customers’ needs
-              quickly and efficiently. Need to speak to the owner? No problem. Irwin's Parties is built
-              on reputation and a hand shake. We take that very seriously and strive to live up to that reputation
-              every single day.  
+              Irwin's Parties only has the best games to offer. We have a variety of all different things that will make your party
+              hit!
             </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-     <!--  
-*****************************************************
-                 *** Locations ***
-*****************************************************
--->
-
-  <section id="locations">
-    <div class="container">
-      <div class="row">
-        <div class="feature wow fadeInUp">
-          <div class="f-description">
-            <h2>Throw Your Party In These Locations</h2>
-          </div>
-          <div class="toggle-container cf">
-            <div class="switch-toggles">
-              <div class="category ocean-button first">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-            </div>
-          </div>
-          <div class="categories">
-          </div>
+      <div class="toggle-container cf">
+        <div class="switch-toggles">
+          <div class="category fun-foods-button first">Fun Foods</div>
+          <div class="category arts-crafts-button">Arts & Crafts</div>
         </div>
-        </div>
+      </div>
+      <div class="categories">
+        <!--#include file="products/fun-foods-arts-crafts/fun-foods.html" -->
+        <!--#include file="products/fun-foods-arts-crafts/arts-crafts.html" -->
       </div>
     </div>
   </section>
@@ -128,4 +104,5 @@
   <!--#include file="footer.html" -->
 
 </body>
+
 </html>

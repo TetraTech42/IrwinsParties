@@ -64,189 +64,27 @@
       </div>
     </div>
   </section>
-  
-<!--  
-*****************************************************
-         *** WHAT WE CAN DO FOR YOU ***
-*****************************************************
--->
-
-  <section id="do-for-you">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center">
-          <h1 class="wow fadeInUp">What We Can Do For You!</h1>
-          <p class="wow fadeInUp" data-wow-delay=".1s">
-            Here at Irwin's Parties, we make sure every party is as safe as possible,
-            the most fun as possible and reliable everytime! We bring all different types
-            of party fun, as you can see below, to your party to ensure a great time!
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/inflatables.png" alt="Inflatables">
-          <h2>
-            Inflatables
-          </h2>
-          <p>
-            We have a wonderful selection of inflatables that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/mechanicals.png" alt="Mechanicals">
-          <h2>
-            Mechanicals
-          </h2>
-          <p>
-            We have a wonderful selection of mechanicals that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/games.png" alt="Games">
-          <h2>
-            Games
-          </h2>
-          <p>
-            We have a wonderful selection of games that will make your party a hit!
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/fun-foods.png" alt="Fun Foods">
-          <h2>
-            Fun Foods
-          </h2>
-          <p>
-            We have a wonderful selection of fun foods that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/arts-and-crafts.png" alt="Arts And Crafts">
-          <h2>
-            Arts & Crafts
-          </h2>
-          <p>
-            We have a wonderful selection of arts and crafts that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/tents.png" alt="Tents">
-          <h2>
-            Tents
-          </h2>
-          <p>
-            We have a wonderful selection of tents that will make your party a hit!
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!--  
 *****************************************************
-                 *** ABOUT US ***
+              *** DUNK TANKS ***
 *****************************************************
 -->
-
-  <section id="about-us">
+  <section id="dunk-tanks">
     <div class="container">
       <div class="row">
         <div class="feature wow fadeInUp">
-          <div class="f-description">
-            <h2>About Us</h4>
+          <div class="f-description" style="text-align:center">
+            <h1>Dunk Tanks</h1>
             <p>
-              Irwin's, LLC is an Asbury, family owned and operated party rental
-              company. We have proudly established ourselves as the fastest growing, customer-oriented party rental
-              business in 2001. We take extra time to pay attention to details and respond to customers’ needs
-              quickly and efficiently. Need to speak to the owner? No problem. Irwin's Parties is built
-              on reputation and a hand shake. We take that very seriously and strive to live up to that reputation
-              every single day.  
+              Irwin's Parties only has the best products to offer. We have a variety of all different things that will make your party
+              hit!
             </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="customers">
-    <div class="container">
-      <div class="row">
-        <div id="testimonials-slider">
-          <div class="col-md-6 col-md-offset-3 text-center">
-
-            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-              <!-- Carousel Slides / Quotes -->
-              <div class="carousel-inner text-center">
-                <!-- Bottom Carousel Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#quote-carousel" data-slide-to="0" class="active">
-                      <img class="img-responsive " src="images/user1.jpg" alt="">
-                    </li>
-                    <li data-target="#quote-carousel" data-slide-to="1">
-                      <img class="img-responsive" src="images/user2.jpg" alt="">
-                      <div class="shadow"></div>
-                    </li>
-                    <li data-target="#quote-carousel" data-slide-to="2">
-                      <img class="img-responsive" src="images/user3.jpg" alt="">
-                    </li>
-                </ol>
-                
-
-                  <!-- Quote 1 -->
-                  <div class="item active">
-                    <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
-                      <div class="star-rating">
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star"></i>
-                      </div>
-                      <p class="customer-name">Cameron Downman</p>
-                    </div>
-                  </div>
-                  <!-- Quote 2 -->
-                  <div class="item">
-                    <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
-                      <div class="star-rating">
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star"></i>
-                      </div>
-                      <p class="customer-name">Cameron Downman</p>
-                    </div>
-                  </div>
-                  <!-- Quote 3 -->
-                  <div class="item">
-                    <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
-                      <div class="star-rating">
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star"></i>
-                      </div>
-                      <p class="customer-name">Cameron Downman</p>
-                    </div>
-                  </div>
-              </div>
-
-              <!-- Carousel Buttons Next/Prev -->
-              <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-              <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-            </div>
-          </div>
-        </div>
+      <div>
+        <!--#include file="products/dunk-tanks.html" -->
       </div>
     </div>
   </section>
@@ -254,4 +92,5 @@
   <!--#include file="footer.html" -->
 
 </body>
+
 </html>

@@ -38,22 +38,163 @@ $(document).ready(function() {
 
 
 	// Products Toggle
-	var individual_price_table = $('#price_tables').find('.individual');
-	var company_price_table = $('#price_tables').find('.company');
-
-
 	$('.switch-toggles').find('.first').addClass('active');
-	$('#price_tables').find('.individual').addClass('active');
 
-	$('.switch-toggles').find('.category').on('click', function(){
+	$('.content').hide();
+
+	//Inflatables
+	$('.moon-bounces').show();
+
+	$('.switch-toggles').find('.moon-bounces-button').on('click', function(){
+		$('.category').removeClass('active');
 		$(this).addClass('active');
-		$(this).closest('.switch-toggles').removeClass('active');
-		$(this).siblings().removeClass('active');
-		individual_price_table.addClass('active');
-		company_price_table.removeClass('active');
+		$('.content').hide();
+		$('.moon-bounces').show();
+	});
+	$('.switch-toggles').find('.dry-slides-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.dry-slides').show();
+	});
+	$('.switch-toggles').find('.water-slides-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.water-slides').show();
+	});
+	$('.switch-toggles').find('.water-fun-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.water-fun').show();
+	});
+	$('.switch-toggles').find('.combo-bounces-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.combo-bounces').show();
+	});
+	$('.switch-toggles').find('.obstacles-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.obstacles').show();
+	});
+	$('.switch-toggles').find('.sports-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.sports').show();
+	});
+	$('.switch-toggles').find('.everything-else-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.everything-else').show();
 	});
 
+	//Games
+	$('.classic-games').show();
 
+	$('.switch-toggles').find('.classic-games-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.classic-games').show();
+	});
+	$('.switch-toggles').find('.interactive-fun-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.interactive-fun').show();
+	});
+	$('.switch-toggles').find('.casino-fun-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.casino-fun').show();
+	});
+	$('.switch-toggles').find('.virtual-entertainment-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.virtual-entertainment').show();
+	});
+	
+	//Fun Foods And Arts & Crafts
+	$('.fun-foods').show();
+
+	$('.switch-toggles').find('.fun-foods-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.fun-foods').show();
+	});
+	$('.switch-toggles').find('.arts-crafts-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.arts-crafts').show();
+	});
+
+	//Packages
+	$('.package-a').show();
+
+	$('.switch-toggles').find('.package-a-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-a').show();
+	});
+	$('.switch-toggles').find('.package-b-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-b').show();
+	});
+	$('.switch-toggles').find('.package-c-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-c').show();
+	});
+	$('.switch-toggles').find('.package-d-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-d').show();
+	});
+	$('.switch-toggles').find('.package-d1-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-d1').show();
+	});
+	$('.switch-toggles').find('.package-e-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-e').show();
+	});
+	$('.switch-toggles').find('.package-f-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-f').show();
+	});
+	$('.switch-toggles').find('.package-g-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-g').show();
+	});
+	$('.switch-toggles').find('.package-h-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.package-h').show();
+	});
 	// Wow Animations
     wow = new WOW(
       {

@@ -152,7 +152,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 content">
+        <div class="col-md-4 center">
           <h2>
             Inflatables
           </h2>
@@ -160,7 +160,7 @@
             We have a wonderful selection of Inflatables that will make your party a hit!
           </p>
         </div>
-        <div class="col-md-4 content">
+        <div class="col-md-4 center">
           <h2>
             Dunk Tanks
           </h2>
@@ -168,7 +168,7 @@
             We have a wonderful selection of dunk tanks that will make your party a hit!
           </p>
         </div>
-        <div class="col-md-4 content">
+        <div class="col-md-4 center">
           <h2>
             Games
           </h2>
@@ -246,23 +246,27 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 content">
+        <div class="col-md-4 center">
           <h2>
-            Arts & Crafts
+            Mechanicals
           </h2>
           <p>
             We have a wonderful selection of Inflatables that will make your party a hit!
           </p>
         </div>
-        <div class="col-md-4 content">
+        <div class="col-md-4 center">
           <h2>
             Fun Foods
+            <br>
+            And
+            <br>
+            Arts & Crafts
           </h2>
           <p>
             We have a wonderful selection of dunk tanks that will make your party a hit!
           </p>
         </div>
-        <div class="col-md-4 content">
+        <div class="col-md-4 center">
           <h2>
             Tents
           </h2>
@@ -327,8 +331,8 @@
                   <!-- Quote 1 -->
                   <div class="item active">
                     <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
+                      <h3>Irwin's Parties makes the funnest parties!</h3>
+                      <p>“I had such a great time at this party!”</p>
                       <div class="star-rating">
                         <i class="fa fa-star gold-star"></i>
                         <i class="fa fa-star gold-star"></i>
@@ -342,8 +346,8 @@
                   <!-- Quote 2 -->
                   <div class="item">
                     <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
+                      <h3>Irwin's Parties is very reliable!</h3>
+                      <p>“They came on time and gave more than I was even expecting!”</p>
                       <div class="star-rating">
                         <i class="fa fa-star gold-star"></i>
                         <i class="fa fa-star gold-star"></i>
@@ -351,14 +355,14 @@
                         <i class="fa fa-star gold-star"></i>
                         <i class="fa fa-star"></i>
                       </div>
-                      <p class="customer-name">Cameron Downman</p>
+                      <p class="customer-name">John Smith</p>
                     </div>
                   </div>
                   <!-- Quote 3 -->
                   <div class="item">
                     <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
+                      <h3>Irwins Parties Cares!</h3>
+                      <p>“They made sure that I was being taken care of”</p>
                       <div class="star-rating">
                         <i class="fa fa-star gold-star"></i>
                         <i class="fa fa-star gold-star"></i>
@@ -366,7 +370,7 @@
                         <i class="fa fa-star gold-star"></i>
                         <i class="fa fa-star"></i>
                       </div>
-                      <p class="customer-name">Cameron Downman</p>
+                      <p class="customer-name">Joe Shmo</p>
                     </div>
                   </div>
               </div>

@@ -85,15 +85,25 @@
       </div>
       <div class="toggle-container cf">
         <div class="switch-toggles">
-          <div class="category inflatables first">Moon Bounces</div>
-          <div class="category mechanicals">Dry Slides</div>
-          <div class="category games">Water Slides</div>
-          <div class="category arts-crafts">Water Fun</div>
-          <div class="category fun-foods">Combo Bounces</div>
-          <div class="category tents">Obstacles</div>
-          <div class="category tents">Sports</div>
-          <div class="category tents">Everything Else!</div>
+          <div class="category moon-bounces-button first">Moon Bounces</div>
+          <div class="category dry-slides-button">Dry Slides</div>
+          <div class="category water-slides-button">Water Slides</div>
+          <div class="category water-fun-button">Water Fun</div>
+          <div class="category combo-bounces-button">Combo Bounces</div>
+          <div class="category obstacles-button">Obstacles</div>
+          <div class="category sports-button">Sports</div>
+          <div class="category everything-else-button">Everything Else!</div>
         </div>
+      </div>
+      <div class="categories">
+        <!--#include file="products/inflatables/moon-bounces.html" -->
+        <!--#include file="products/inflatables/dry-slides.html" -->
+        <!--#include file="products/inflatables/water-slides.html" -->
+        <!--#include file="products/inflatables/water-fun.html" -->
+        <!--#include file="products/inflatables/combo-bounces.html" -->
+        <!--#include file="products/inflatables/obstacles.html" -->
+        <!--#include file="products/inflatables/sports.html" -->
+        <!--#include file="products/inflatables/everything-else.html" -->
       </div>
     </div>
   </section>

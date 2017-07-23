@@ -67,15 +67,15 @@
   
 <!--  
 *****************************************************
-         *** WHAT WE CAN DO FOR YOU ***
+         *** PACKAGES ***
 *****************************************************
 -->
-  <section id="Packages">
+  <section id="packages">
     <div class="container">
       <div class="row">
         <div class="feature wow fadeInUp">
           <div class="f-description" style="text-align:center">
-            <h1>Packages</h1>
+            <h1>Party Packages</h1>
             <p>
             Here are the various packages we have for you at Irwin's Parties. Be sure to
             Check these deals out for great savings for your party. Each package is tailor 
@@ -86,137 +86,39 @@
       </div>
       <div class="toggle-container cf">
         <div class="switch-toggles">
-          <div class="category inflatables first">Package A</div>
-          <div class="category mechanicals">Package B</div>
-          <div class="category games">Package C</div>
-          <div class="category arts-crafts">Package D</div>
-          <div class="category fun-foods">Package E</div>
-          <div class="category tents">Package F</div>
-          <div class="category tents">Package G</div>
+          <div class="category package-a-button first">A</div>
+          <div class="category package-b-button">B</div>
+          <div class="category package-c-button">C</div>
+          <div class="category package-d-button">D</div>
+          <div class="category package-d1-button">D1</div>
+          <div class="category package-e-button">E</div>
+          <div class="category package-f-button">F</div>
+          <div class="category package-g-button">G</div>
+          <div class="category package-h-button">H</div>
         </div>
       </div>
-    </div>
-  </section>
-<!-- <section id="do-for-you">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center">
-          <h1 class="wow fadeInUp">Packages</h1>
-          <p class="wow fadeInUp" data-wow-delay=".1s">
-
-
-            Here are the various packages we have for you at Irwin's Parties. Be sure to
-            Check these deals out for great savings for your party. Each package is tailor 
-            made for a unique party. Happy Shopping!
-
-
-          </p>
-        </div>
-      </div>
-            <div class="toggle-container cf">
-              <div class="switch-toggles">
-                <div class="category inflatables first">Package A</div>
-                <div class="category mechanicals">Package B</div>
-                <div class="category games">Package C</div>
-                <div class="category arts-crafts">Package D</div>
-                <div class="category fun-foods">Package E</div>
-                <div class="category tents">Package F</div>
-                <div class="category tents">Package G</div>
-        </div>
-      </div>
-    </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/inflatables.png" alt="Inflatables">
-          <h2>
-            Package A
-          </h2>
-          <p>
-            We have a wonderful selection of inflatables that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/mechanicals.png" alt="Mechanicals">
-          <h2>
-            Package B
-          </h2>
-          <p>
-            We have a wonderful selection of mechanicals that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/games.png" alt="Games">
-          <h2>
-            Package C
-          </h2>
-          <p>
-            We have a wonderful selection of games that will make your party a hit!
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/fun-foods.png" alt="Fun Foods">
-          <h2>
-            Package D
-          </h2>
-          <p>
-            We have a wonderful selection of fun foods that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/arts-and-crafts.png" alt="Arts And Crafts">
-          <h2>
-            Package E
-          </h2>
-          <p>
-            We have a wonderful selection of arts and crafts that will make your party a hit!
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/do-for-you/tents.png" alt="Tents">
-          <h2>
-            Package F
-          </h2>
-          <p>
-            We have a wonderful selection of tents that will make your party a hit!
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
--->
-  <!--  
-*****************************************************
-                 *** ABOUT US ***
-*****************************************************
--->
-
-  <section id="about-us">
-    <div class="container">
-      <div class="row">
-        <div class="feature wow fadeInUp">
-          <div class="f-description">
-            <h2>About Us</h4>
-            <p>
-              Irwin's, LLC is an Asbury, family owned and operated party rental
-              company. We have proudly established ourselves as the fastest growing, customer-oriented party rental
-              business in 2001. We take extra time to pay attention to details and respond to customers’ needs
-              quickly and efficiently. Need to speak to the owner? No problem. Irwin's Parties is built
-              on reputation and a hand shake. We take that very seriously and strive to live up to that reputation
-              every single day.  
-            </p>
-          </div>
-        </div>
+      <div class="categories">
+        <!--#include file="packages/package-a.html" -->
+        <!--#include file="packages/package-b.html" -->
+        <!--#include file="packages/package-c.html" -->
+        <!--#include file="packages/package-d.html" -->
+        <!--#include file="packages/package-d1.html" -->
+        <!--#include file="packages/package-e.html" -->
+        <!--#include file="packages/package-f.html" -->
+        <!--#include file="packages/package-g.html" -->
+        <!--#include file="packages/package-h.html" -->
       </div>
     </div>
   </section>
 
-  <section id="customers">
+  <section id="package-add-ons">
     <div class="container">
+      <div class="row" style="text-align:center">
+        <h2>Add Ons</h2>
+      </div>
       <div class="row">
-        <div id="testimonials-slider">
-          <div class="col-md-6 col-md-offset-3 text-center">
+        <div>
+          <div class="col-md-10 col-md-offset-1 text-center">
 
             <div class="carousel slide" data-ride="carousel" id="quote-carousel">
               <!-- Carousel Slides / Quotes -->
@@ -228,57 +130,60 @@
                     </li>
                     <li data-target="#quote-carousel" data-slide-to="1">
                       <img class="img-responsive" src="images/user2.jpg" alt="">
-                      <div class="shadow"></div>
                     </li>
                     <li data-target="#quote-carousel" data-slide-to="2">
                       <img class="img-responsive" src="images/user3.jpg" alt="">
                     </li>
+                    <li data-target="#quote-carousel" data-slide-to="3">
+                      <img class="img-responsive " src="images/user1.jpg" alt="">
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="4">
+                      <img class="img-responsive" src="images/user2.jpg" alt="">
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="5">
+                      <img class="img-responsive" src="images/user3.jpg" alt="">
+                    </li>
                 </ol>
                 
-
-                  <!-- Quote 1 -->
                   <div class="item active">
-                    <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
-                      <div class="star-rating">
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star"></i>
-                      </div>
-                      <p class="customer-name">Cameron Downman</p>
+                    <div class="add-on">
+                      <h3>50 Small Prizes For Carnival Game Winners</h3>
+                      <p>$20.00</p>
                     </div>
                   </div>
-                  <!-- Quote 2 -->
+                  
                   <div class="item">
-                    <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
-                      <div class="star-rating">
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star"></i>
-                      </div>
-                      <p class="customer-name">Cameron Downman</p>
+                    <div class="add-on">
+                      <h3>Additional Carnival Games</h3>
+                      <p>$35.00 Each</p>
                     </div>
                   </div>
-                  <!-- Quote 3 -->
+                  
                   <div class="item">
-                    <div class="testimonial">
-                      <h3>New Providence is the great UI kit</h3>
-                      <p>“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
-                      <div class="star-rating">
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star"></i>
-                      </div>
-                      <p class="customer-name">Cameron Downman</p>
+                    <div class="add-on">
+                      <h3>Carnival Game Tent (10' x 10') And Table (8')</h3>
+                      <p>$100.00</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="add-on">
+                      <h3>50 Additional Fun Food Servings</h3>
+                      <p>$25.00</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="add-on">
+                      <h3>Additional Fun Food Machines</h3>
+                      <p>$65.00 Each</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="add-on">
+                      <h3>Additional Inflatables</h3>
+                      <p>Call For Prices</p>
                     </div>
                   </div>
               </div>
