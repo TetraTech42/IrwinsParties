@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--#include file="head.html" -->
+<head>
+  <title>Irwin's Parties - About</title>
+  <!--#include file="head.html" -->
+</head>
 <body>
 
   <!--#include file="header.html" -->
@@ -102,22 +105,69 @@
         <div class="feature wow fadeInUp">
           <div class="f-description">
             <h2>Throw Your Party In These Locations</h2>
+            <p>
+              Check out all of the locations we have serviced!
+              <br>
+              If your location is not below, call us to see if we can accomodate! 
+            </p>
           </div>
           <div class="toggle-container cf">
             <div class="switch-toggles">
-              <div class="category ocean-button first">Ocean County</div>
+              <div class="category bergen-button first">Bergen County</div>
+              <div class="category camden-button">Camden County</div>
+              <div class="category essex-button">Essex County</div>
+              <div class="category hudson-button">Hudson County</div>
+              <div class="category mercer-button">Mercer County</div>
+              <div class="category middlesex-button">Middlesex County</div>
+              <div class="category monmouth-button">Monmouth County</div>
+              <div class="category morris-button">Morris County</div>
               <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
-              <div class="category ocean-button">Ocean County</div>
+              <div class="category passaic-button">Passaic County</div>
+              <div class="category somerset-button">Somerset County</div>
+              <div class="category union-button">Union County</div>
+              <div class="category warren-button">Warren County</div>
             </div>
           </div>
           <div class="categories">
+            <div class="bergen content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385732.6755515375!2d-74.36764444186984!3d40.947823834163536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3000da684cd8b%3A0x6ce387c0f3df8605!2sBergen+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500848076524" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="camden content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d392346.71634830424!2d-75.21551513559386!3d39.80230970768257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scamden+county!5e0!3m2!1sen!2sus!4v1500848607070" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="essex content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193321.83000223266!2d-74.38733874441368!3d40.79162914019452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3bca134fbe26d%3A0xc955b4d208ef1dae!2sEssex+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500848905905" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="hudson content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96745.18679597984!2d-74.1490622258291!3d40.733708012565266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ab419ec74ad1%3A0xdbdf00ccd2a9a685!2sHudson+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500848945214"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="mercer content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194801.80486329665!2d-74.8514958006132!3d40.280676967210994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c160e60fa87e0d%3A0xca4ca22398799eee!2sMercer+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500848971396"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="middlesex content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194370.3400622892!2d-74.55821253423677!3d40.43018926491688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3dca9b565b9e1%3A0xfbff002a91109cd1!2sMiddlesex+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849032627"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="monmouth content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d389614.83739297674!2d-74.57304059800744!3d40.278728615430865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3cf078e32ecb3%3A0x24e4402cc03423a7!2sMonmouth+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849097468"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="morris content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386198.9499449394!2d-74.85837907147413!3d40.867939288012806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3964383b8edc9%3A0x2357cb03372caa6b!2sMorris+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849125735"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="ocean content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392131.7786799083!2d-74.57242830160438!3d39.83996495011715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c16c287049b687%3A0x8c25d4d20966015a!2sOcean+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849166668"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="passaic content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192679.93601422853!2d-74.44492277001602!3d41.011602233346466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c31032ecda1669%3A0x9129a8191459fcd4!2sPassaic+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849189366"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="somerset content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193976.15967982827!2d-74.73991626926987!3d40.56638247118652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3bfb2a50c4e49%3A0xbaab05032912ccb1!2sSomerset+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849250953"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="union content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193687.89505478824!2d-74.44119395832128!3d40.66574178830884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ba72e0435613%3A0x6eacb8338b6ce95d!2sUnion+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849140120"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="warren content cf">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386343.48632267496!2d-75.26579768317997!3d40.843150425092574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c382d94a8a3f05%3A0x546ba35e8896ea4f!2sWarren+County%2C+NJ!5e0!3m2!1sen!2sus!4v1500849268770"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
         </div>

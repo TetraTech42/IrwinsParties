@@ -37,7 +37,7 @@ $(document).ready(function() {
 	});
 
 
-	// Products Toggle
+	//Toggles
 	$('.switch-toggles').find('.first').addClass('active');
 
 	$('.content').hide();
@@ -195,6 +195,90 @@ $(document).ready(function() {
 		$('.content').hide();
 		$('.package-h').show();
 	});
+
+	//Locations
+	$('.bergen').show();
+
+	$('.switch-toggles').find('.bergen-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.bergen').show();
+	});
+	$('.switch-toggles').find('.camden-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.camden').show();
+	});
+	$('.switch-toggles').find('.essex-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.essex').show();
+	});
+	$('.switch-toggles').find('.hudson-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.hudson').show();
+	});
+	$('.switch-toggles').find('.mercer-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.mercer').show();
+	});
+	$('.switch-toggles').find('.middlesex-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.middlesex').show();
+	});
+	$('.switch-toggles').find('.monmouth-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.monmouth').show();
+	});
+	$('.switch-toggles').find('.morris-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.morris').show();
+	});
+	$('.switch-toggles').find('.ocean-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.ocean').show();
+	});
+	$('.switch-toggles').find('.passaic-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.passaic').show();
+	});
+	$('.switch-toggles').find('.somerset-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.somerset').show();
+	});
+	$('.switch-toggles').find('.union-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.union').show();
+	});
+	$('.switch-toggles').find('.warren-button').on('click', function(){
+		$('.category').removeClass('active');
+		$(this).addClass('active');
+		$('.content').hide();
+		$('.warren').show();
+	});
+
+
 	// Wow Animations
     wow = new WOW(
       {
