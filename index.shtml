@@ -28,57 +28,25 @@
     </div>
     <div class="container">
       <div class="row">
-        <div id="cloud" class="col-md-7 text-center">
-          <h1 style="font-size:40px;">
-            Your Unforgettable 
-            <br>
-            Party Starts Here!
-          <h1>
-          <div id="myCarousel" class="carousel slide wow fadeInUp" data-ride="carousel" style="height:auto;max-width:100%">
-
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <div class="carousel-inner">
-              <div class="item active">
-                <div class="slider-size">
-                  <img src="images/carousel-home/packages.png" alt="Discount Packages">
-                  <div class="carousel-caption">
-                    <h3></h3>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="slider-size">
-                  <img src="images/carousel-home/dunk-tanks.jpg" alt="Dunk Tanks">
-                  <div class="carousel-caption">
-                    <h3></h3>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="slider-size">
-                  <img src="images/carousel-home/bounces.png" alt="All Day Bounces">
-                  <div class="carousel-caption">
-                    <h3></h3>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="fa fa-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="fa fa-chevron-right"></span>
-            </a>
-          </div>
+        <div class="col-md-7 text-center">
+          <table>
+            <tr>
+              <td>
+                <a href="dunk-tanks.shtml" class="float-up" ><img style="padding-bottom:35px;" src="images/index/dunk-tanks-clown-cloud.png" alt="Party Packages"></a>
+              </td>
+              <td>
+                <a href="packages.shtml" class="float-down"><img style="padding-bottom:35px;" src="images/index/party-packages-clown-cloud.png" alt="Party Packages"></a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="dunk-tanks.shtml" class="float-down"><img src="images/index/dunk-tank-combo-clown-cloud.png" alt="Party Packages"></a>
+              </td>
+              <td>
+                <a href="inflatables.shtml" class="float-up"><img src="images/index/bounces-clown-cloud.png" alt="Party Packages"></a>
+              </td>
+            </tr>
+          </table>
         </div>
         <div class="col-md-5 text-center">
           <!--#include file="quote.html" -->
@@ -95,7 +63,8 @@
 
   <section id="home">
     <div id="cloud-top">
-      <div class="container">
+      <div class="home-cloud-top container">
+        <h1>We Bring The<br> Amusement Park To You!</h1>
       </div>
     </div>
     <div class="cloud-content container">
@@ -110,28 +79,6 @@
         </div>
       </div>
       <div class="row ferris-row">
-        <div class="col-md-4">
-          <div class="ferris-wheel">
-            <div class="wheel-wrap">
-              <div class="wheel wheel-inflatables">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-            <div class="buckets">
-              <div><span></span></div>
-              <div><span></span></div>
-              <div><span></span></div>
-              <div><span></span></div>
-              <div><span></span></div>
-              <div><span></span></div>
-              <div><span></span></div>
-              <div><span></span></div>
-            </div>
-            <div class="stand"><span></span></div>
-          </div>
-        </div>
         <div class="col-md-4">
           <div class="ferris-wheel">
             <div class="wheel-wrap">
@@ -157,7 +104,29 @@
         <div class="col-md-4">
           <div class="ferris-wheel">
             <div class="wheel-wrap">
-              <div class="wheel wheel-games">
+              <div class="wheel wheel-water-slides">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-dry-slides">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -180,7 +149,7 @@
       <div class="row">
         <div class="col-md-4 center">
           <h3>
-            Inflatables
+            Dunk Tanks
           </h3>
           <p>
             We have a wonderful selection of Inflatables that will make your party a hit!
@@ -188,7 +157,7 @@
         </div>
         <div class="col-md-4 center">
           <h3>
-            Dunk Tanks
+            Water Slides
           </h3>
           <p>
             We have a wonderful selection of dunk tanks that will make your party a hit!
@@ -196,7 +165,7 @@
         </div>
         <div class="col-md-4 center">
           <h3>
-            Games
+            Dry Slides
           </h3>
           <p>
             We have a wonderful selection of games that will make your party a hit!
@@ -207,7 +176,195 @@
         <div class="col-md-4">
           <div class="ferris-wheel">
             <div class="wheel-wrap">
-              <div class="wheel wheel-arts-crafts">
+              <div class="wheel wheel-mechanicals">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-moon-bounces">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-interactive-inflatables">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 center">
+          <h3>
+            Mechanicals
+          </h3>
+          <p>
+            We have a wonderful selection of Inflatables that will make your party a hit!
+          </p>
+        </div>
+        <div class="col-md-4 center">
+          <h3>
+            Moon Bounces
+          </h3>
+          <p>
+            We have a wonderful selection of dunk tanks that will make your party a hit!
+          </p>
+        </div>
+        <div class="col-md-4 center">
+          <h3>
+            Interactive Inflatables
+          </h3>
+          <p>
+            We have a wonderful selection of games that will make your party a hit!
+          </p>
+        </div>
+      </div>
+      <div class="row ferris-row">
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-games">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-sport-inflatables">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-obstacles">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="buckets">
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+              <div><span></span></div>
+            </div>
+            <div class="stand"><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 center">
+          <h3>
+            Games
+          </h3>
+          <p>
+            We have a wonderful selection of Inflatables that will make your party a hit!
+          </p>
+        </div>
+        <div class="col-md-4 center">
+          <h3>
+            Sport Inflatables
+          </h3>
+          <p>
+            We have a wonderful selection of dunk tanks that will make your party a hit!
+          </p>
+        </div>
+        <div class="col-md-4 center">
+          <h3>
+            Obstacles
+          </h3>
+          <p>
+            We have a wonderful selection of games that will make your party a hit!
+          </p>
+        </div>
+      </div>
+      <div class="row ferris-row">
+        <div class="col-md-4">
+          <div class="ferris-wheel">
+            <div class="wheel-wrap">
+              <div class="wheel wheel-tents">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -251,7 +408,7 @@
         <div class="col-md-4">
           <div class="ferris-wheel">
             <div class="wheel-wrap">
-              <div class="wheel wheel-tents">
+              <div class="wheel wheel-combo-bounces">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -274,7 +431,7 @@
       <div class="row">
         <div class="col-md-4 center">
           <h3>
-            Mechanicals
+            Tents
           </h3>
           <p>
             We have a wonderful selection of Inflatables that will make your party a hit!
@@ -283,10 +440,6 @@
         <div class="col-md-4 center">
           <h3>
             Fun Foods
-            <br>
-            And
-            <br>
-            Arts & Crafts
           </h3>
           <p>
             We have a wonderful selection of dunk tanks that will make your party a hit!
@@ -294,7 +447,7 @@
         </div>
         <div class="col-md-4 center">
           <h3>
-            Tents
+            Combo Bounces
           </h3>
           <p>
             We have a wonderful selection of games that will make your party a hit!
@@ -331,10 +484,10 @@
 
     <div class="container cloud-content">
       <div class="row">
-        <div id="testimonials-slider">
-          <div class="col-md-6 col-md-offset-3 text-center">
+        <div>
+          <div class="col-md-8 col-md-offset-2 text-center">
 
-            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            <div class="carousel slide" data-ride="carousel">
               <!-- Carousel Slides / Quotes -->
               <div class="carousel-inner text-center">
                 <!-- Bottom Carousel Indicators -->
@@ -345,7 +498,7 @@
                 </ol>
 
                   <div class="item active">
-                    <div class="testimonial">
+                    <div>
                       <h3>Irwin's Parties makes the funnest parties!</h3>
                       <p>“I had such a great time at this party!”</p>
                       <div class="star-rating">
@@ -359,23 +512,10 @@
                     </div>
                   </div>
                   <!-- Quote 2 -->
-                  <div class="item">
-                    <div class="testimonial">
-                      <h3>Irwin's Parties is very reliable!</h3>
-                      <p>“They came on time and gave more than I was even expecting!”</p>
-                      <div class="star-rating">
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                        <i class="fa fa-star gold-star"></i>
-                      </div>
-                      <p class="customer-name">John - Cherry Hill, NJ</p>
-                    </div>
-                  </div>
+                  
                   <!-- Quote 3 -->
                   <div class="item">
-                    <div class="testimonial">
+                    <div>
                       <h3>Irwins Parties Cares!</h3>
                       <p>“They made sure that I was being taken care of”</p>
                       <div class="star-rating">
@@ -388,6 +528,20 @@
                       <p class="customer-name">Joe - Freehold, NJ</p>
                     </div>
                   </div>
+                  <div class="item">
+                    <div>
+                      <h3>Irwin's Parties is very reliable!</h3>
+                      <p>“They came on time and gave more than I was even expecting!”</p>
+                      <div class="star-rating">
+                        <i class="fa fa-star gold-star"></i>
+                        <i class="fa fa-star gold-star"></i>
+                        <i class="fa fa-star gold-star"></i>
+                        <i class="fa fa-star gold-star"></i>
+                        <i class="fa fa-star gold-star"></i>
+                      </div>
+                      <p class="customer-name">John - Cherry Hill, NJ</p>
+                    </div>
+                  </div>
               </div>
 
               <!-- Carousel Buttons Next/Prev -->
@@ -396,6 +550,10 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div id="cloud-bottom">
+      <div class="container">
       </div>
     </div>
   </section>
